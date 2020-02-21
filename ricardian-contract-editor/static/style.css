@@ -1,0 +1,28 @@
+.new-client {
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.documents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 1000px;
+    flex-direction: column;
+}
+.new-client .key {
+    align-self: center;
+    width: 500px;
+}
+
+.new-client .contract {
+    width: 900px;
+    height: 800px;
+    align-self: center;
+}
+

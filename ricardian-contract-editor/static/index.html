@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="frontend.rs">
+  <meta name="author" content="Hyungsuk Kang">
+  <title>Document file storage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="frontend_rs.js"></script>
+  <script>
+    
+
+  </script>
+</head>
+
+<body>
+  <textarea
+               value=&self.public_key 
+               id="proposer_did"   
+               class="proposer_did"
+               placeholder="Proposer DID hash"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+            <textarea
+               value=&self.
+               id="approver_did"   
+               class="approver_did"
+               placeholder="Approver DID hash"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+            <textarea
+               value=&self.
+               id="proposer_public"   
+               class="proposer_public"
+               placeholder="Proposer DID public key"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+            <textarea
+               value=&self.
+               id="approver_public"   
+               class="approver_public"
+               placeholder="Approver DID public key"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+            <textarea
+               value=&self.
+               id="proposer signature"   
+               class="proposer_signature"
+               placeholder="Proposer DID signature on Document hash"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+            <textarea
+               value=&self.
+               id="approver_signature"   
+               class="approver_signature"
+               placeholder="Approver DID signature on Document hash"
+
+               oninput=link.callback(|e: InputData| Msg::UpdateContract(e.value)) />
+</body>
+
+</html>

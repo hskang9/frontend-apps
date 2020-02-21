@@ -1,0 +1,39 @@
+{
+  "APP_NAME": "substrate-front-end-tutorial",
+  "DEVELOPMENT_KEYRING": true,
+  "CUSTOM_TYPES": {
+    "PersonalAccess": {
+      "access_list": "Vec<Bytes>",
+      "root": "H256"
+    },
+    "Status": "u32",
+    "Data": {
+      "extension_id": "u32",
+      "bytes": "Bytes"
+    },
+    "PersonalStorage": {
+      "stack": "BTreeMap<Bytes, Vec<Data>>",
+      "remove_key": "AccountId"
+    },
+    "DID": {
+      "public_key": "Bytes",
+      "issuer": "H256"
+    },
+    "Owner": "AccountId",
+    "Issuer": "AccountId",
+    "SovereignAccount": "AccountId",
+    "IssuedBy": "Bytes",
+    "DIDIdentifier": "Bytes",
+    "PublicKey": "Bytes",
+    "ContractId": "Bytes",
+    "ProposerId": "Bytes",
+    "ApproverId": "Bytes",
+    "PhysContract": {
+      "content_id": "Bytes",
+      "proposer_id": "Bytes",
+      "approver_id": "Bytes",
+      "proposer_signature": "Bytes",
+      "approver_signature": "Bytes"
+    }
+  }
+}
