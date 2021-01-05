@@ -12,7 +12,7 @@
     "@polkadot/ui-keyring": "^0.47.1",
     "@polkadot/util": "^1.7.1",
     "@polkadot/util-crypto": "^1.7.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "big.js": "^5.2.2",
     "coinkey": "^3.0.0",
     "crypto": "^1.0.1",
